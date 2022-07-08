@@ -1,0 +1,11 @@
+//
+// Visibility utilities
+//
+
+.av-visible {
+  @include invisible(visible);
+}
+
+.av-invisible {
+  @include invisible(hidden);
+}
